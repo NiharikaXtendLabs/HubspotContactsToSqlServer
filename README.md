@@ -5,11 +5,11 @@ The web application takes dummy contacts list from hubspot API via contacts API,
 
 ## Steps to run -
 
-1. Import the project in Visual Studio 2022
-2. Install the required packages 
-3. Enter your hubspot access token in the file - Helper\Constants.cs
-4. Enter your SQL database credentials in the file -  Helper\Constants.cs
-3. Run the project
+1.Open the WebApplication solution (.sln) using Visual Basic of your choice
+2.Build the solution
+3.Enter your hubspot access token in the file - Web.config 
+4.Enter your SQL database credentials in the file - Web.config 
+5.Run the project
 
 
 ## Screenshot of the DataGrid showing the Hubspot's contacts
