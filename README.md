@@ -5,10 +5,14 @@ The web application takes dummy contacts list from hubspot API via contacts API,
 
 ## Steps to run -
 
-1.Open the WebApplication solution (.sln) using Visual Basic of your choice
+1.Open the WebApplication solution (.sln) using Visual Studio IDE.
+
 2.Build the solution
+
 3.Enter your hubspot access token in the file - Web.config 
+
 4.Enter your SQL database credentials in the file - Web.config 
+
 5.Run the project
 
 
@@ -22,7 +26,7 @@ The web application takes dummy contacts list from hubspot API via contacts API,
 
 ## Stack Used -
 
-1. ASP.net framework 
-2. SQL server
-3. SQL server management studio
-4. Visual Basic
+1. .NET Framework 4.7.2
+2. SQL server 2019
+3. Microsodt SQL Server Management Studio 18
+4. Visual Basic 2022
