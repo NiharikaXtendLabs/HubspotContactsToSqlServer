@@ -17,4 +17,11 @@ Steps to run -
 
 **Screemshot of the saved contacts into SQL server
 **
+
 ![image](https://user-images.githubusercontent.com/121125272/208905731-8573fc70-de42-4ea1-b6dc-e2c5d5429ee6.png)
+
+Stack Used -
+1. ASP.net framework 
+2. SQL server
+3. SQL server management studio
+4. Visual Basic
