@@ -12,8 +12,11 @@ namespace HubspotContactsToSqlServer
         {
             var table = new DataTable();
             HubSpotContacts deserializedContacts = null;
+
             GetContactsList();
+
             if (_contactsList != null)
+            //Adding columns First Name and Last Name only in the table structure for datagrid
             {
                 table.Columns.Add("First Name");
                 table.Columns.Add("Last Name");
@@ -21,7 +24,6 @@ namespace HubspotContactsToSqlServer
                 deserializedContacts = JsonConvert.DeserializeObject<HubSpotContacts>(_contactsList);
             }
 
-            //show data on web browser
             if (deserializedContacts != null)
             {
                 foreach (var contactsLists in deserializedContacts.Contacts)
@@ -38,6 +40,9 @@ namespace HubspotContactsToSqlServer
             SqlServerHelper.InsertDataToSqlServer(deserializedContacts);
         }
 
+        /// <summary>
+        /// Getting the contacts list data from hubspot
+        /// </summary>
         private static async void GetContactsList()
         {
             _contactsList = await HubSpotApiHandler.GetContactsFromHubSpot();
