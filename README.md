@@ -13,7 +13,7 @@ Steps to run -
 
 **Screenshot of the DataGrid showing the Hubspot's contacts
 **
-![image](https://user-images.githubusercontent.com/121125272/208903093-73ffa459-35ae-433b-a5de-6bc95fa68898.png)
+![image](https://user-images.githubusercontent.com/121125272/208906276-da09be5a-2e72-4b9c-9943-9ee5e7c17990.png)
 
 **Screemshot of the saved contacts into SQL server
 **
