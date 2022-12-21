@@ -16,8 +16,7 @@ The web application takes dummy contacts list from hubspot API via contacts API,
 
 ![image](https://user-images.githubusercontent.com/121125272/208906276-da09be5a-2e72-4b9c-9943-9ee5e7c17990.png)
 
-##Screemshot of the saved contacts into SQL server
-
+## Screenshot of the saved contacts into SQL server
 
 ![image](https://user-images.githubusercontent.com/121125272/208905731-8573fc70-de42-4ea1-b6dc-e2c5d5429ee6.png)
 
